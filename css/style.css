@@ -24,7 +24,7 @@ body {
 .main {
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/sky.jpg);
+    background-image: url(../img/sky2.jpg);
     background-size: cover;
     overflow: hidden;
 }
@@ -73,7 +73,9 @@ body {
 }
 
 span {
-    color: olive;
+    color: #d90000;
+    /*    text-transform: lowercase;*/
+    text-transform: capitalize;
 }
 
 
@@ -203,16 +205,33 @@ h6 {
 }
 
 .left {
-    width: 25%;
+    width: 30%;
     height: 100%;
     padding: 3%;
     background-color: white;
 }
 
 .right {
-    width: 75%;
+    width: 70%;
     height: 100%;
-    background-color: olive;
+    background-image: url(../img/ground2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-box-left {
+    width: 50%;
+    padding: 5%;
+}
+
+.img-box-right {
+    width: 50%;
+    padding: 5%;
+}
+
+img {
+    width: 100%;
 }
 
 .text-box {
@@ -239,6 +258,29 @@ button {
 
 .space-box {
     height: 5vh;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    /* remove scrollbar space */
+    background: transparent;
+    /* optional: just make scrollbar invisible */
+}
+
+/* optional: show position indicator in red */
+
+html {
+    overflow: -moz-scrollbars-none;
+}
+
+html {
+    -ms-overflow-style: none;
+    background-color: rgba(240, 248, 255, 0);
 }
 
 

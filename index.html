@@ -24,7 +24,7 @@
 
         <!------- THIS IS WHERE YOU FILL IN THE FORM -------->
 
-        <div id="form_box" class="box">
+        <div id="form_box" class="box hidden">
             <div>
                 <h1> LAG ET EVENTYR </h1>
             </div>
@@ -119,7 +119,7 @@
         <!------------- STORY IN HTML ----------------->
 
 
-        <div id="scene1" class="scene flex hidden">
+        <div id="scene1" class="scene flex">
             <div class="left">
                 <div class="text-box">
                     <p>
@@ -131,7 +131,13 @@
                     <button id="nextButton1" class="btn"> Neste </button>
                 </div>
             </div>
-            <div class="right">
+            <div class="right flex">
+                <div class="img-box-left">
+                    <img src="img/angrywolf.gif">
+                </div>
+                <div class="img-box-right">
+                    <img src="img/kjerring.gif">
+                </div>
             </div>
         </div>
 
@@ -157,21 +163,8 @@
                     <button id="nextButton3" class="btn"> Start på nytt </button>
                 </div>
             </div>
-            <div class="img-box full flex">
-                <div class="width fourth appear">
-                    <img class="img_cover p_layer_base" src="img/tree_20.png">
-                </div>
-                <div class="width fourth appear">
-                    <img class="img_cover p_layer_base" src="img/wolf_25.png">
-                </div>
-                <div class="width fifth appear">
-                    <img class="img_cover p_layer_back" src="img/lowhare_20.png">
-                </div>
-                <div class="width thirty appear">
-                    <img class="img_cover p_layer_back" src="img/house_30.png">
-                </div>
+            <div class="right">
             </div>
-            <div class="space-box full"></div>
         </div>
 
 
