@@ -67,7 +67,7 @@ body {
 .box {
     width: 100%;
     padding: 10%;
-    padding-top: 5%;
+    padding-top: 2%;
     height: 90vh;
     overflow: scroll;
 }
@@ -84,7 +84,7 @@ span {
 input {
     margin: 0 auto;
     display: block;
-    width: 30vw;
+    width: 20vw;
     min-width: 180px;
     margin-top: 30px;
     padding: 10px;
@@ -248,7 +248,7 @@ button {
     min-width: 120px;
     padding: 8px;
     border: none;
-    background-color: olive;
+    background-color: black;
     border-radius: 50px;
 }
 
